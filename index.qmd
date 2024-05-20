@@ -28,9 +28,9 @@ Last compiled: `r Sys.Date()`
 library(tidyverse)
 library(readxl)
 # 2.0 Importing Files ----
-bikes_tbl      <- read_excel(path = "C:/Users/afjalOneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/bikes.xlsx")
-orderlines_tbl <- read_excel("C:/Users/Afjal/OneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/orderlines.xlsx")
-bikeshops_tbl  <- read_excel("C:/Users/Afjal/OneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/bikeshops.xlsx")
+bikes_tbl      <- read_excel(path = "C:/Users/afjal/OneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/bikes.xlsx")
+orderlines_tbl <- read_excel("C:/Users/afjal/OneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/orderlines.xlsx")
+bikeshops_tbl  <- read_excel("C:/Users/afjal/OneDrive/Documents/GitHub/ss24-bdsb-Afjalbhai1771/ss24-bdsb-Afjalbhai1771/ds_data/01_bike_sales/01_raw_data/bikeshops.xlsx")
 # 3.0 Examining Data ----
 orderlines_tbl
 glimpse(orderlines_tbl)
